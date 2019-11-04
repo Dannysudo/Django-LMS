@@ -1,5 +1,5 @@
-1. Install Pycharm
-2. When you first open Pycharm, it'll ask "Open Project/ Open Folder" choose the folder where you downloaded the "Project-1"
+1. Install Pycharm Professional (1 month trial, but it's free for longer if you sign up as student)
+2. When you first open Pycharm, it'll ask "Open Project/ Open Folder" choose the folder where you downloaded the "Django-LMS"
 3. If Pycharm asks to install any packages (like javascript) click yes and wait for it to finish installing 
 
 4. Whenever you start any project, you want to enable a virtual environnment, you do that by typing
