@@ -1,21 +1,28 @@
-1. Install Pycharm Professional (1 month trial, but it's free for longer if you sign up as student)
-2. When you first open Pycharm, it'll ask "Open Project/ Open Folder" choose the folder where you downloaded the "Django-LMS"
+1. Install Pycharm Professional (1 month trial, but free if you sign up as student)
+2. When you first open Pycharm, it'll ask "Open Project/ Open Folder" choose the folder where you downloaded the "Project-1"
 3. If Pycharm asks to install any packages (like javascript) click yes and wait for it to finish installing 
 
 4. Whenever you start any project, you want to enable a virtual environnment, you do that by typing
-"virtualenv venv" into the Pycharm command console
-5. To install all the packages needed type "pip install -r requirements.txt" into the command console
+"virtualenv venv" into the Pycharm terminal (if  it doesn't work do "pip install virtualenv" first)
+
+4b. To activate virtual environment on windows type "venv\Scripts\activate" for Mac I think it's  "source venv/bin/activate" or "venv/bin/activate"
+5. Then install all the packages needed type "pip install -r requirements.txt" into the command console
 
 6. If it asks you to migrate anything in the console, these are the commands.
-"python manage.py migrate"
+"python manage.py migrate" or
 "python manage.py migrate --run-syncdb"
 
+7. Then enable Front end by entering in terminal
+"npm install" and "npm run build"
 
-7. To get started you create a superuser
+8. To get started you create a superuser
 "python manage.py createsuperuser"
 
-8. Then you run the server, which basically will host the website on your local computer.
+8. Then you run the server, aka to enable Back end.
 "python manage.py runserver"
 
 9. To go to the site you hosted type "http://localhost" or "127.0.0.1:8000" into your browser
+
+
+"npm start"
 
